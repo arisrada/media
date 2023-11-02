@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Media Streaming Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Media Streaming Website</h1>
+    </header>
+
+    <div id="video-container">
+        <video controls id="video-player">
+        </video>
+    </div>
+
+    <div id="upload-form">
+        <h2>Upload Video</h2>
+        <form id="video-upload-form" enctype="multipart/form-data">
+            <input type="file" id="video-file" accept="video/*" required>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Your Media Streaming Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
